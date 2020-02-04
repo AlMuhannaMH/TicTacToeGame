@@ -5,8 +5,12 @@ const eventClick = "click";
 let firstPlayerName = prompt("Please enter your name for the X turn", "");
 let secondPlayerName = prompt("Please enter your name for the O turn", "");
 
+let audioWin = new Audio("audio/bdc7e3fb7788ae3.htm");
+
 //Track the game
 let isGameOn = true;
+let scoreX = 0;
+let scoreO = 0;
 //Inital first turn of the game
 let currentPlayer = "X";
 let playerName = firstPlayerName;
@@ -27,7 +31,8 @@ let whoseTurnMessage = function () {
     return "It's  " + currentPlayer + ", " + playerName + "'s turn";
 };
 
-// diplay the player turn
+$q("#scoreX").textContent = scoreX;
+$q("#scoreO").textContent = scoreO;
 $q(".heading-message").textContent = whoseTurnMessage();
 
 let winMap = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
@@ -67,9 +72,18 @@ let handleResultValidation = function () {
 
     // User Stories#6: As a user, I should not be able to continue playing once I win, lose, or tie
     if (isPlayerWin) {
+        audioWin.play();
         setTimeout(function () {
+            if (playerName === firstPlayerName) {
+                scoreX++
+            } else {
+                scoreO++
+            }
+            $q("#scoreX").textContent = scoreX;
+            $q("#scoreO").textContent = scoreO;
             $q(".heading-message").textContent = winMessage();
             $q(".overlay-message").setAttribute("id", "overlay");
+            $q(".close-button").removeAttribute("id");
         }, 500);
         isGameOn = false;
         return;
@@ -101,15 +115,23 @@ let handleSquareClick = function (clickedSquareEvent) {
     handleResultValidation();
 }
 
-let handleRestartGame = function () {
+let handleCloseGame = function () {
     isGameOn = true;
     $q(".overlay-message").removeAttribute("id");
+    $q(".close-button").setAttribute("id", "hide");
     currentPlayer = "X";
     gameBoard = ["", "", "", "", "", "", "", "", ""];
     $q(".heading-message").textContent = whoseTurnMessage();
     $qa(".square").forEach(function (square) {
         return square.textContent = "";
     });
+}
+let handleRestartGame = function () {
+    scoreX = 0;
+    scoreO = 0;
+    $q("#scoreX").textContent = scoreX;
+    $q("#scoreO").textContent = scoreO;
+    handleCloseGame();
 }
 
 
@@ -120,7 +142,7 @@ $qa(".square").forEach(function (square) {
 });
 // User Stories#7: As a user, I should be able to play the game again without refreshing the page
 $q(".restart-button").addEventListener(eventClick, handleRestartGame);
-
+$q(".close-button").addEventListener(eventClick, handleCloseGame);
 // let firstPlayerName = prompt("Please enter your name", "Harry Potter");
 // if (firstPlayerName != null) {
 //     $q("#demo").textContent = "Hello " + firstPlayerName + "! How are you today?";
