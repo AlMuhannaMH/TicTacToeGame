@@ -2,7 +2,11 @@
 
 ## Overview
 
-Web Game Application
+It is a classic game for two players, X and O, that alternates to determine distances in a 3 x 3 grid. 
+The player who passes three of his marks in a horizontal, vertical, or diagonal row is the winner.
+
+This project is to implement the game in web/mobile application using the technology, 
+that I have been practicing on during the past two weeks to use my programming skills of the logic for the game.
 
 ---
 
