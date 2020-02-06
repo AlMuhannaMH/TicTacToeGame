@@ -11,6 +11,7 @@ let audioWin = new Audio("audio/bdc7e3fb7788ae3.htm");
 let isGameOn = true;
 let scoreX = 0;
 let scoreO = 0;
+let scoreTie = 0;
 //Inital first turn of the game
 let currentPlayer = "X";
 let playerName = firstPlayerName;
@@ -33,6 +34,7 @@ let whoseTurnMessage = function () {
 
 $q("#scoreX").textContent = scoreX;
 $q("#scoreO").textContent = scoreO;
+$q("#scoreTie").textContent = scoreTie;
 $q(".heading-message").textContent = whoseTurnMessage();
 
 let winMap = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
@@ -92,7 +94,13 @@ let handleResultValidation = function () {
     // if the game board filled with X,O and no one win, it"s tie
     let isTie = !gameBoard.includes("");
     if (isTie) {
-        $q(".heading-message").textContent = tieMessage();
+        setTimeout(function () {
+            scoreTie++
+            $q("#scoreTie").textContent = scoreTie;
+            $q(".heading-message").textContent = tieMessage();
+            $q(".overlay-message").setAttribute("id", "overlay");
+            $q(".close-button").removeAttribute("id");
+        }, 500);
         isGameOn = false;
         return;
     }
@@ -129,8 +137,10 @@ let handleCloseGame = function () {
 let handleRestartGame = function () {
     scoreX = 0;
     scoreO = 0;
+    scoreTie = 0;
     $q("#scoreX").textContent = scoreX;
     $q("#scoreO").textContent = scoreO;
+    $q("#scoreTie").textContent = scoreTie;
     handleCloseGame();
 }
 

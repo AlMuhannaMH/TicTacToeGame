@@ -2,7 +2,11 @@
 
 ## Overview
 
-Web Game Application
+It is a classic game for two players, X and O, that alternates to determine distances in a 3 x 3 grid. 
+The player who passes three of his marks in a horizontal, vertical, or diagonal row is the winner.
+
+This project is to implement the game in web/mobile application using the technology, 
+that I have been practicing on during the past two weeks to use my programming skills of the logic for the game.
 
 ---
 
@@ -18,10 +22,36 @@ Web Game Application
 
 ---
 
+### Technologies used in the Project
+
+- Firefox Browser Developer Edition.
+- HTML.
+- CSS.
+- Vanilla JavaScript.
+- GitHub.
+
+---
+
+### Wireframes
+
+The basic game board when it was in the paper.
+
+The next phase was to improve it to look like the actual output will be delivered.
+
+the final result.
+
+The design is responsive to mobile devices also.
+
+---
+
+
 ## Resources
 
-- **[MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla JavaScript)_
+- **[MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 - **[DevDocs](https://devdocs.io/)**
 - **[jQuery Docs](http://api.jquery.com)**
-- **[GitHub Pages](https://pages.github.com)** _(for hosting your game)_
-- **[GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)** _(for working with Markdown)_
+- **[GitHub Pages](https://pages.github.com)**
+- **[GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)**
+
+
+![Drag Racing]()
