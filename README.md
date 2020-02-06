@@ -47,19 +47,19 @@ Here is the like to the game. [The Game](https://almuhannamh.github.io/TicTacToe
 
 The basic game board when it was in the paper.
 
-![UI1](img\ui1.jpg)
+![UI1](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/ui1.jpg)
 
 The next phase was to improve it to look like the actual output will be delivered.
 
-![UI2](img\ui2.png)
+![UI2](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/ui2.png)
 
 The final result.
 
-![UI3](img\ui3.png)
+![UI3](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/ui3.png)
 
 The design is responsive to mobile devices also.
 
-![UI4](img\ui4.jpg)
+![UI4](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/ui4.jpg)
 
 ---
 
