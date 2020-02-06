@@ -2,23 +2,34 @@
 
 ## Overview
 
-It is a classic game for two players, X and O, that alternates to determine distances in a 3 x 3 grid. 
+It is a classic game for two players, X and O, that alternates to determine distances in a 3 x 3 grid.
 The player who passes three of his marks in a horizontal, vertical, or diagonal row is the winner.
 
-This project is to implement the game in web/mobile application using the technology, 
+This project is to implement the game in web/mobile application using the technology,
 that I have been practicing on during the past two weeks to use my programming skills of the logic for the game.
+
+More to see what behind scene the planning and development process and problem-solving strategy. [trello](https://trello.com/b/QJPuaR9w/project-1-tictactocgame/)
 
 ---
 
 ### User Stories
 
-- As a user, I should be able to start a new tic tac toe game
-- As a user, I should be able to click on a square to add X first and then O, and so on
-- As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
-- As a user, I should not be able to click the same square twice
-- As a user, I should be shown a message when I win, lose or tie
-- As a user, I should not be able to continue playing once I win, lose, or tie
-- As a user, I should be able to play the game again without refreshing the page
+Here is the like to the game. [The Game](https://almuhannamh.github.io/TicTacToeGame/)
+
+---
+
+### User Stories
+
+* Two players can play new tic tac toe game.
+* Players can enter their custom names, for X and O turn.
+* First player able to click on a square to add X.
+* The second player able to add O to the square after the first player finishes his/her turn.
+* A message show whose current turn.
+* A message show after each turn for if win or tie.
+* Both players are not able to click the same square twice.
+* Both players are not able to continue playing once the game end up with win or tie.
+* A message shows the score for each player and if the game ends up with a tie.
+* Players can play the game again without refreshing the page.
 
 ---
 
@@ -36,14 +47,28 @@ that I have been practicing on during the past two weeks to use my programming s
 
 The basic game board when it was in the paper.
 
+![UI1](img\ui1.jpg)
+
 The next phase was to improve it to look like the actual output will be delivered.
 
-the final result.
+![UI2](img\ui2.png)
+
+The final result.
+
+![UI3](img\ui3.png)
 
 The design is responsive to mobile devices also.
 
+![UI4](img\ui4.jpg)
+
 ---
 
+TODO:
+
+* Allow 2 players to play online with each other using any means such as WebSockets, Firebase, or other 3rd-party services.
+* Create an AI opponent: teach JavaScript to play an unbeatable game against you
+
+---
 
 ## Resources
 
@@ -52,6 +77,3 @@ The design is responsive to mobile devices also.
 - **[jQuery Docs](http://api.jquery.com)**
 - **[GitHub Pages](https://pages.github.com)**
 - **[GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)**
-
-
-![Drag Racing]()
