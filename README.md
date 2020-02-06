@@ -22,6 +22,29 @@ that I have been practicing on during the past two weeks to use my programming s
 
 ---
 
+### Technologies used in the Project
+
+- Firefox Browser Developer Edition.
+- HTML.
+- CSS.
+- Vanilla JavaScript.
+- GitHub.
+
+---
+
+### Wireframes
+
+The basic game board when it was in the paper.
+
+The next phase was to improve it to look like the actual output will be delivered.
+
+the final result.
+
+The design is responsive to mobile devices also.
+
+---
+
+
 ## Resources
 
 - **[MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla JavaScript)_
