@@ -47,8 +47,11 @@ The design is responsive to mobile devices also.
 
 ## Resources
 
-- **[MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** _(a great reference for all things Vanilla JavaScript)_
+- **[MDN JavaScript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 - **[DevDocs](https://devdocs.io/)**
 - **[jQuery Docs](http://api.jquery.com)**
-- **[GitHub Pages](https://pages.github.com)** _(for hosting your game)_
-- **[GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)** _(for working with Markdown)_
+- **[GitHub Pages](https://pages.github.com)**
+- **[GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)**
+
+
+![Drag Racing]()
