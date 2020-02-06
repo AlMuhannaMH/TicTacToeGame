@@ -35,16 +35,24 @@ that I have been practicing on during the past two weeks to use my programming s
 ### Wireframes
 
 The basic game board when it was in the paper.
-![UI1](img/in the paper.jpg)
+
+![UI1](https://github.com/AlMuhannaMH/TicTacToeGame/blob/master/img/in%20the%20paper.jpg)
+
 
 The next phase was to improve it to look like the actual output will be delivered.
-![UI2](img/"UI v2.png")
+
+![UI2](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/UI%20v2.png)
+
 
 The final result.
-![UI3](img/"Screenshot_2020-02-06 Tic Tac Toe.png")
+
+![UI3](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/Screenshot_2020-02-06%20Tic%20Tac%20Toe.png)
+
 
 The design is responsive to mobile devices also.
-![UI4](img/"Mobile -Tic Tac Toe.jpg")
+
+![UI4](https://raw.githubusercontent.com/AlMuhannaMH/TicTacToeGame/master/img/Mobile%20-Tic%20Tac%20Toe.jpg)
+
 
 ---
 
