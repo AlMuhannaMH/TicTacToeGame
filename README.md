@@ -35,12 +35,16 @@ that I have been practicing on during the past two weeks to use my programming s
 ### Wireframes
 
 The basic game board when it was in the paper.
+![UI1](img/in the paper.jpg)
 
 The next phase was to improve it to look like the actual output will be delivered.
+![UI2](img/"UI v2.png")
 
-the final result.
+The final result.
+![UI3](img/"Screenshot_2020-02-06 Tic Tac Toe.png")
 
 The design is responsive to mobile devices also.
+![UI4](img/"Mobile -Tic Tac Toe.jpg")
 
 ---
 
@@ -52,6 +56,3 @@ The design is responsive to mobile devices also.
 - **[jQuery Docs](http://api.jquery.com)**
 - **[GitHub Pages](https://pages.github.com)**
 - **[GitHub Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)**
-
-
-![Drag Racing]()
